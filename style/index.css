@@ -1,1 +1,110 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+
+ *{
+     box-sizing: border-box;
+     padding:0;
+     margin:0;
+     max-width:100%;
+     /* border:1px solid grey;  */
+ }
+
+ html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.5rem;
+    color:#4f4f4f;
+    background-color:#00000094;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:2;
+
+}
+h1,h2{
+    font-size:3rem;
+}
+header{
+    background-color:black;
+}
+
+    .topsection{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+    }
+    
+    .top{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+    }
+
+    .img1{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+    }
+    button{
+    background-color:grey;
+    color:blue;
+    border: white solid 1px;
+    padding:2px 10px;
+    }
+    button:hover{
+    background-color:white;
+    color:grey;
+    border: blue solid 1px;
+    }
+    button a{
+        text-decoration: none;
+        color:inherit;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        padding:25px;
+    }
+    .img2{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        padding:20px;
+    }
+
+    .info{
+        width:20%;
+        text-align: center;
+        padding:2%;
+        color:white;
+    }
