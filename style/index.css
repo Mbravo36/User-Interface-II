@@ -121,7 +121,15 @@ section{
     }
 
     @media (max-width: 800px){
-
+            .img2 img{
+                width:20%;
+            }
+            .img2 {
+                flex-wrap: wrap;
+            }
+            .img div{
+                width:100%;
+            }
     }
 
 
